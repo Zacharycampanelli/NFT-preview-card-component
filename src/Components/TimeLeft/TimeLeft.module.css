@@ -1,0 +1,13 @@
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+#time {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+#clock {
+    margin-right: 8px;
+}

@@ -11,8 +11,13 @@
   --white: hsl(0, 0%, 100%);
 }
 
-body {
+.App {
   font-size: 18px;
   font-family: 'Outfit', sans-serif;
-
+  background-color: var(--veryDarkBlueMain);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
