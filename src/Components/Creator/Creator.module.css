@@ -1,3 +1,5 @@
+@import '../../App.css';
+
 .creatorInfo {
     display: flex;
     justify-content: flex-start;
@@ -8,18 +10,18 @@
 #avatar {
   width: 2rem;
   height: 2rem;
-  border: 1px solid hsla(0, 0%, 100%, 1);
+  border: 1px solid var(--white);
   border-radius: 25px;
   margin-right: 16px;
 }
 
 #author {
-  color: hsl(215, 51%, 70%);
+  color: var(--softBlue);
   margin-top: 16px;
   font-size: 15px;
   font-weight: 400;
 }
 
 #name {
-    color:hsla(0, 0%, 100%, 1);
+    color:var(--white);
 }

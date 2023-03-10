@@ -1,10 +1,12 @@
+@import '../../App.css';
+
 .flex {
     display: flex;
     align-items: center;
 }
 
 #time {
-    color: hsl(215, 51%, 70%);
+    color: var(--softBlue);
     font-weight: 400;
 }
 
