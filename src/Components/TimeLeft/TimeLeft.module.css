@@ -1,15 +1,27 @@
 @import '../../App.css';
 
 .flex {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #time {
-    color: var(--softBlue);
-    font-weight: 400;
+  color: var(--softBlue);
+  font-weight: 400;
+  font-size: 16px;
 }
 
 #clock {
-    margin-right: 8px;
+  margin-right: 8px;
+}
+
+@media (min-width: 801px) {
+  #time {
+    font-size: 30px;
+  }
+
+  #clock {
+    height: 30px;
+    width: auto;
+  }
 }

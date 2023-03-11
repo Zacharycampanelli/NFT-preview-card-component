@@ -16,6 +16,7 @@
   font-family: 'Outfit', sans-serif;
   background-color: var(--veryDarkBlueMain);
   height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;

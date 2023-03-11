@@ -7,9 +7,7 @@ import NFTCard from './Components/NFTCard/NFTCard';
 function App() {
   return (
     <div className="App">
-      <NFTCard>
-
-      </NFTCard>
+      <NFTCard />
     </div>
   );
 }

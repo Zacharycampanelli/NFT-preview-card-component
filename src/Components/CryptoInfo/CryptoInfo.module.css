@@ -1,11 +1,17 @@
 @import '../../App.css';
 
 .data {
-    width: 100%;
-    padding-bottom: 16px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    border-width: 278px;
-    border-bottom: 1px solid var(--veryDarkBlueLine);
+  width: 100%;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  border-width: 278px;
+  border-bottom: 1px solid var(--veryDarkBlueLine);
+}
+
+@media (min-width: 801px) {
+  .data {
+    padding-bottom: 42px;
+  }
 }
