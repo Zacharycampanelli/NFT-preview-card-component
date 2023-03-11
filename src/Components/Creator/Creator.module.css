@@ -1,10 +1,10 @@
 @import '../../App.css';
 
 .creatorInfo {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 4px;
 }
 
 #avatar {
@@ -23,7 +23,7 @@
 }
 
 #name {
-    color:var(--white);
+  color: var(--white);
 }
 
 @media (min-width: 801px) {
@@ -33,6 +33,7 @@
     margin-right: 30px;
     border-radius: 30px;
     margin-top: 16px;
+    
   }
 
   #author {
