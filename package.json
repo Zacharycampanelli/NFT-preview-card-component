@@ -1,7 +1,7 @@
 {
   "name": "nft-preview-card-component",
   "version": "0.1.0",
-  "homepage": "https://zacharycampanelli.github.io/",
+  "homepage": "https://zacharycampanelli.github.io/NFT-preview-card-component/",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
