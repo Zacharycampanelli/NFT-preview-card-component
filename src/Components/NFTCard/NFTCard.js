@@ -12,10 +12,13 @@ const NFTCard = () => {
       <Card.Body>
         <div className={styles.image_container}>
         <Card.Img className={styles.main_img} variant="top" src={equilibrium} alt="equilibrium" />
-        <div className={styles.overlay}>
-          <Card.Img src={view} />
-        </div>
-       </div> <Card.Title className={styles.title}>Equilibrium #3429</Card.Title>
+        <div className={styles.overlay}></div>
+          <Card.Img src={view} className={styles.view} />
+        
+       </div>
+       </Card.Body>
+       <Card.Body className={styles.content}> 
+       <Card.Title className={styles.title}>Equilibrium #3429</Card.Title>
         <Card.Text className={styles.text}>Our Equilibrium collection promotes balance and calm.</Card.Text>
         <CryptoInfo />
         <Creator />
