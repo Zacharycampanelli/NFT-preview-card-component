@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./src/Assets/Images/Mobile.jpeg)
-![](./src/Assets/Images/Desktop.jpeg)
-![](./src/Assets/Images/Desktop-Active.jpeg)
+![](./public/Mobile.jpeg)
+![](./public/Desktop.jpeg)
+![](./public/Desktop-Active.jpeg)
 
 ### Links
 
