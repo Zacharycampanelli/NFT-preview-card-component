@@ -8,7 +8,7 @@
 #time {
   color: var(--softBlue);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 #clock {
@@ -17,7 +17,7 @@
 
 @media (min-width: 801px) {
   #time {
-    font-size: 30px;
+    font-size: 22px;
   }
 
   #clock {

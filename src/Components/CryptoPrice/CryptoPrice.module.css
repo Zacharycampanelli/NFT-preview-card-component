@@ -8,17 +8,17 @@
 #etherium_text {
   color: var(--cyan);
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   margin: auto 5px;
 }
 
 @media (min-width: 801px) {
   #etherium_text {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   #etherium_icon {
-    height: 30px;
     width: auto;
+    height: 25px;
   }
 }

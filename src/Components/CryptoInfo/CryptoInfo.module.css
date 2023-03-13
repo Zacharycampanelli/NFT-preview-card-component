@@ -1,8 +1,12 @@
 @import '../../App.css';
 
 .data {
+  font-size: 18px;
   width: 100%;
-  padding-bottom: 11px;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  font-weight: 300;
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
@@ -12,6 +16,7 @@
 
 @media (min-width: 801px) {
   .data {
-    margin-bottom: 20px;
+    padding-top: 6px;
+    padding-bottom: 32px;
   }
 }
